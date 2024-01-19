@@ -1,0 +1,25 @@
+@media screen and (max-width:550px) {
+  .header {
+    padding: 20px;
+  }
+
+  .nav-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20px; */
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+  }
+
+  .text-container {
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}

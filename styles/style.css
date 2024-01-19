@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+  background-color: green;
+  margin-bottom: 10px;
+}
+
+.nav-section {
+  max-width: 1150px;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+.image-container {
+
+  /* min-height: 20px; */
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.image-container img {
+  /* note give pxicel in this png pic */
+  width: 90px;
+
+}
+
+.image-container p .shop {
+
+  color: rgb(128, 0, 60);
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  width: 50%;
+  font-size: 20px;
+  color: black;
+}
+
+.text-container a {
+  text-decoration: none;
+}
+
+.text-container .special a {
+  color: #e0e1e588;
+  background-color: rgb(128, 0, 60);
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+/* banner section start */
+.banner-section {
+  max-width: 1150px;
+  margin: 0 auto;
+  /* border: 3px solid blue; */
+
+  display: flex;
+}
+
+.banner-section * {
+  margin-bottom: 10px;
+}
+
+.banner-text {
+  width: 50%;
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid red; */
+}
+
+.banner-text .banner-heading {
+  font-size: 54px;
+  background: linear-gradient(to right bottom, rgb(128, 0, 60), green);
+  background-clip: text;
+  color: transparent;
+}
+
+.banner-text p {
+  font-size: 36px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.banner-text .icon {
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 40%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  /* border: 3px solid red; */
+
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgb(128, 0, 60);
+  color: green;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-img {
+  width: 50%;
+  /* border: 3px solid blue; */
+  padding: 15px 20px;
+  position: relative;
+
+}
+
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.banner-img .discount {
+  background-color: olive;
+  color: white;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 70%;
+  left: 70%;
+}
+
+
+
+/* banner section start */
